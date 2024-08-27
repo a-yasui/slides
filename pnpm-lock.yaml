@@ -20,9 +20,6 @@ importers:
       vue:
         specifier: ^3.4.38
         version: 3.4.38(typescript@5.5.4)
-      wrangler:
-        specifier: ^3.72.2
-        version: 3.72.2
     devDependencies:
       playwright-chromium:
         specifier: ^1.46.1
