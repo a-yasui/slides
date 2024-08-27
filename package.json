@@ -1,20 +1,22 @@
 {
-    "name": "slides",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "description": "",
-    "dependencies": {
-        "@slidev/cli": "^0.49.29",
-        "@slidev/theme-default": "latest",
-        "@slidev/theme-seriph": "latest",
-        "vue": "^3.4.38"
-    },
-    "devDependencies": {
-        "playwright-chromium": "^1.46.1"
-    }
+  "name": "slides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm run -r build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slidev/cli": "^0.49.29",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.38",
+    "wrangler": "^3.72.2"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.46.1"
+  },
+  "packageManager": "pnpm@9.9.0"
 }
