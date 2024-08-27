@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /2024-08-27/ --out ../dist/2024-08-27",
+    "build": "slidev build --base /2024-08-27/ --out ../docs/2024-08-27",
     "dev": "slidev --open",
     "export": "slidev export --dark --output ../2024-08-27.pdf"
   }
